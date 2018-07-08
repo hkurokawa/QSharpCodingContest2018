@@ -9,8 +9,7 @@ namespace Solution
         {
             using(var sim = new QuantumSimulator())
             {
-                sim.OnLog += (msg) => { System.Console.WriteLine(msg); };
-                Test.Run(sim, 1);
+                var res = Test.Run(sim, 1).Result;
             }
         }
     }
