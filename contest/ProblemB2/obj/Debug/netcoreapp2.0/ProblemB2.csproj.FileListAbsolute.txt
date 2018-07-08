@@ -1,0 +1,11 @@
+/home/hiroshi/git/github.com/hkurokawa/QSharpCodingContest2018/contest/ProblemB2/bin/Debug/netcoreapp2.0/ProblemB2.deps.json
+/home/hiroshi/git/github.com/hkurokawa/QSharpCodingContest2018/contest/ProblemB2/bin/Debug/netcoreapp2.0/ProblemB2.runtimeconfig.json
+/home/hiroshi/git/github.com/hkurokawa/QSharpCodingContest2018/contest/ProblemB2/bin/Debug/netcoreapp2.0/ProblemB2.runtimeconfig.dev.json
+/home/hiroshi/git/github.com/hkurokawa/QSharpCodingContest2018/contest/ProblemB2/bin/Debug/netcoreapp2.0/ProblemB2.dll
+/home/hiroshi/git/github.com/hkurokawa/QSharpCodingContest2018/contest/ProblemB2/bin/Debug/netcoreapp2.0/ProblemB2.pdb
+/home/hiroshi/git/github.com/hkurokawa/QSharpCodingContest2018/contest/ProblemB2/obj/Debug/netcoreapp2.0/ProblemB2.csprojAssemblyReference.cache
+/home/hiroshi/git/github.com/hkurokawa/QSharpCodingContest2018/contest/ProblemB2/obj/Debug/netcoreapp2.0/ProblemB2.csproj.CoreCompileInputs.cache
+/home/hiroshi/git/github.com/hkurokawa/QSharpCodingContest2018/contest/ProblemB2/obj/Debug/netcoreapp2.0/ProblemB2.AssemblyInfoInputs.cache
+/home/hiroshi/git/github.com/hkurokawa/QSharpCodingContest2018/contest/ProblemB2/obj/Debug/netcoreapp2.0/ProblemB2.AssemblyInfo.cs
+/home/hiroshi/git/github.com/hkurokawa/QSharpCodingContest2018/contest/ProblemB2/obj/Debug/netcoreapp2.0/ProblemB2.dll
+/home/hiroshi/git/github.com/hkurokawa/QSharpCodingContest2018/contest/ProblemB2/obj/Debug/netcoreapp2.0/ProblemB2.pdb
