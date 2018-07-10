@@ -22,7 +22,7 @@ namespace Solution
             set;
         }
 
-        protected ICallable MicrosoftQuantumExtensionsDiagnosticsDumpMachine
+        protected ICallable MicrosoftQuantumExtensionsDiagnosticsDumpRegister
         {
             get;
             set;
@@ -54,7 +54,7 @@ namespace Solution
 #line 12 "/home/hiroshi/git/github.com/hkurokawa/QSharpCodingContest2018/contest/ProblemA4/Test.qs"
             Solve.Apply(qs);
 #line 13 "/home/hiroshi/git/github.com/hkurokawa/QSharpCodingContest2018/contest/ProblemA4/Test.qs"
-            MicrosoftQuantumExtensionsDiagnosticsDumpMachine.Apply("qs.txt");
+            MicrosoftQuantumExtensionsDiagnosticsDumpRegister.Apply(("qs.txt", qs?.Slice(new Range(0L, (N - 1L)))));
 #line 14 "/home/hiroshi/git/github.com/hkurokawa/QSharpCodingContest2018/contest/ProblemA4/Test.qs"
             ResetAll.Apply(qs);
 #line hidden
@@ -67,7 +67,7 @@ namespace Solution
         public override void Init()
         {
             this.Allocate = this.Factory.Get<Allocate>(typeof(Microsoft.Quantum.Primitive.Allocate));
-            this.MicrosoftQuantumExtensionsDiagnosticsDumpMachine = this.Factory.Get<ICallable>(typeof(Microsoft.Quantum.Extensions.Diagnostics.DumpMachine<>));
+            this.MicrosoftQuantumExtensionsDiagnosticsDumpRegister = this.Factory.Get<ICallable>(typeof(Microsoft.Quantum.Extensions.Diagnostics.DumpRegister<>));
             this.Release = this.Factory.Get<Release>(typeof(Microsoft.Quantum.Primitive.Release));
             this.ResetAll = this.Factory.Get<ICallable<QArray<Qubit>, QVoid>>(typeof(Microsoft.Quantum.Primitive.ResetAll));
             this.Solve = this.Factory.Get<ICallable<QArray<Qubit>, QVoid>>(typeof(Solution.Solve));

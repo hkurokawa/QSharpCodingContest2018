@@ -9,7 +9,7 @@ namespace Solution
         {
             using(var sim = new QuantumSimulator())
             {
-                var res = Test.Run(sim, 1).Result;
+                var res = Test.Run(sim, 8).Result;
             }
         }
     }

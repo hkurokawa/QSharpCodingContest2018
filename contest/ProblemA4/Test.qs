@@ -10,7 +10,7 @@ namespace Solution {
             using(qs = Qubit[N])
             {
                 Solve(qs);
-                DumpMachine("qs.txt");
+                DumpRegister("qs.txt", qs[0..N-1]);
                 ResetAll(qs);
             }
         }
